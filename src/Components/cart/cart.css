@@ -1,0 +1,29 @@
+.cart-container {
+  margin-top: 80px;
+  padding: 0px 50px;
+}
+.filled-cart {
+  display: flex !important;
+  flex-direction: column;
+}
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid gray;
+  padding: 30px;
+  margin: 20px;
+}
+.subtotal-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-details > div > button {
+  margin-right: 5px;
+}
+.h2 {
+  text-align: center;
+  margin: 20px 0px !important;
+  color: rgb(143, 140, 140);
+}

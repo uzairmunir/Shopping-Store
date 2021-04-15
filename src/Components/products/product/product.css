@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;
+  background-color: #efefef !important;
+  border-radius: 10px;
+}
+.card:hover {
+  background-color: rgba(141, 131, 131, 0.5) !important;
+}
+.products-img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+}
